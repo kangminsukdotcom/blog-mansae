@@ -1,5 +1,5 @@
 ---
-title: 강민석 블로그
+title: 강민석
 ---
 
 - [https://kangminsuk.com/](https://kangminsuk.com/)
