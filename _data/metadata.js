@@ -2,7 +2,7 @@ module.exports = {
 	title: "블로그 만세",
 	url: "https://example.com/",
 	language: "ko",
-	description: "광고, 트래킹 없이 오직 글에 집중하는 블로그를 소개합니다.",
+	description: "광고 없이 글에 집중하는 블로그를 소개합니다.",
 	author: {
 		name: "강민석",
 		email: "kang@cheesylazy.com",
