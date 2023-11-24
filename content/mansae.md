@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 permalink: mansae
+eleventyExcludeFromCollections: true
 eleventyNavigation:
   key: 만세!
   order: 3
