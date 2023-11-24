@@ -136,6 +136,9 @@ module.exports = function(eleventyConfig) {
 		// folder name and does **not** affect where things go in the output folder.
 		pathPrefix: "/",
 	};
-		// Copy `img/favicon/` to `_site/`
-		eleventyConfig.addPassthroughCopy({ "img/favicon": "favicon" });
+		const faviconPlugin = require("eleventy-favicon");
+
+		module.exports = function (eleventyConfig) {
+	  	eleventyConfig.addPlugin(faviconPlugin, options);
+	};
 };
