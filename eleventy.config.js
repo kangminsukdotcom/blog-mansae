@@ -136,9 +136,4 @@ module.exports = function(eleventyConfig) {
 		// folder name and does **not** affect where things go in the output folder.
 		pathPrefix: "/",
 	};
-		const faviconPlugin = require("eleventy-favicon");
-
-		module.exports = function (eleventyConfig) {
-	  	eleventyConfig.addPlugin(faviconPlugin, options);
-	};
 };
