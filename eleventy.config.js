@@ -137,6 +137,6 @@ module.exports = function(eleventyConfig) {
 		pathPrefix: "/",
 
 		// Copy `img/favicon/` to `_site/`
-		eleventyConfig.addPassthroughCopy({ "img/favicon": "/" });
+		eleventyConfig.addPassthroughCopy({ "img/favicon": "/favicon" });
 	};
 };
