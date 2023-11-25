@@ -136,4 +136,9 @@ module.exports = function(eleventyConfig) {
 		// folder name and does **not** affect where things go in the output folder.
 		pathPrefix: "/",
 	};
+		const pluginRss = require("@11ty/eleventy-plugin-rss");
+
+		module.exports = function(eleventyConfig) {
+  		eleventyConfig.addPlugin(pluginRss);
+		};
 };
