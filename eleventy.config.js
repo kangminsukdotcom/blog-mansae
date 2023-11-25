@@ -123,10 +123,6 @@ module.exports = function(eleventyConfig) {
 			data: "../_data",          // default: "_data"
 			output: "_site"
 		},
-		
-		module.exports = function(eleventyConfig) {
-			eleventyConfig.addPlugin(pluginRss);
-		};
 
 		// -----------------------------------------------------------------
 		// Optional items:
