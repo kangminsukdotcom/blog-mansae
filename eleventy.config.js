@@ -123,8 +123,7 @@ module.exports = function(eleventyConfig) {
 			data: "../_data",          // default: "_data"
 			output: "_site"
 		},
-		const pluginRss = require("@11ty/eleventy-plugin-rss");
-
+		
 		module.exports = function(eleventyConfig) {
   		eleventyConfig.addPlugin(pluginRss);
 		};
