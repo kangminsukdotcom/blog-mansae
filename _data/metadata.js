@@ -8,4 +8,11 @@ module.exports = {
 		email: "kang@cheesylazy.com",
 		url: "https://kangminsuk.com/"
 	}
+	feed: {
+		"subtitle": "광고 없이 글에 집중하는 블로그를 소개합니다.",
+		"filename": "feed.xml",
+		"path": "feed.xml",
+		"url": "https://blogmansae.com/feed.xml",
+		"id": "https://blogmansae.com/"
+	},
 }
