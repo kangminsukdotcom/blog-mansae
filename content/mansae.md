@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.njk
-permalink: mansae.html
+permalink: about.html
 eleventyNavigation:
   key: 누구세요?
   order: 3
