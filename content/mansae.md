@@ -2,7 +2,7 @@
 layout: layouts/home.njk
 permalink: about.html
 eleventyNavigation:
-  key: 누구?
+  key: 소개
   order: 3
 ---
 구매한 도메인에 블로그를 구축한 당신을 위해. 만세를 외칩니다. *만세!*
