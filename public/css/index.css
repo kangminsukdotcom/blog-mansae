@@ -106,7 +106,7 @@ header:after {
 }
 
 .links-nextprev {
-	list-style: none;
+	list-style: square;
 	border-top: 1px dashed var(--color-gray-20);
 	padding: 1em 0;
 }
@@ -164,7 +164,7 @@ header {
 	display: flex;
 	padding: 0;
 	margin: 0;
-	list-style: none;
+	list-style: square;
 }
 .nav-item {
 	display: inline-block;
@@ -179,7 +179,7 @@ header {
 
 /* Posts list */
 .postlist {
-	list-style: none;
+	list-style: square;
 	padding: 0;
 	padding-left: 1.5rem;
 }
@@ -237,7 +237,7 @@ header {
 	display: inline-flex;
 	flex-wrap: wrap;
 	gap: .5em;
-	list-style: none;
+	list-style: square;
 	padding: 0;
 	margin: 0;
 }
